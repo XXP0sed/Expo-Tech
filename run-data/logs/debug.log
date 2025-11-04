@@ -349,7 +349,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08maj2025 15:18:34.544] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5634a861 - got cpw.mods.cl.ModuleClassLoader@61d01788
 [08maj2025 15:18:34.545] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
 [08maj2025 15:18:34.547] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5634a861 - got cpw.mods.cl.ModuleClassLoader@61d01788
-[08maj2025 15:18:34.548] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.dorsz.dorszpackmod.DorszpackMod
+[08maj2025 15:18:34.548] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.expo.expotech.DorszpackMod
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@5634a861
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.0
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
@@ -362,33 +362,33 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08maj2025 15:18:34.611] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for random_crits
 [08maj2025 15:18:34.611] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for dorszpackmod
 [08maj2025 15:18:34.615] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.TooltipProcedure to FORGE
-[08maj2025 15:18:34.616] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.datagen.DataGenerators to MOD
+[08maj2025 15:18:34.616] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.datagen.DataGenerators to MOD
 [08maj2025 15:18:34.621] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.RandomCritsProcedure to FORGE
-[08maj2025 15:18:34.622] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.DorszpackMod$ClientModEvents to MOD
-[08maj2025 15:18:34.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.DorszpackMod$SocketEvents to FORGE
+[08maj2025 15:18:34.622] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.DorszpackMod$ClientModEvents to MOD
+[08maj2025 15:18:34.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.DorszpackMod$SocketEvents to FORGE
 [08maj2025 15:18:34.626] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.PlayerRespawnProcedure to FORGE
 [08maj2025 15:18:34.628] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.PlayerJoinProcedure to FORGE
-[08maj2025 15:18:34.629] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.event.ModEvents to FORGE
+[08maj2025 15:18:34.629] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.event.ModEvents to FORGE
 [08maj2025 15:18:34.630] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.CritDenialProcedure to FORGE
 [08maj2025 15:18:34.633] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.CommandSentProcedure to FORGE
 [08maj2025 15:18:34.636] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.AttributeModifierProcedure to FORGE
-[08maj2025 15:18:34.637] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.event.SocketAnvilHandler to FORGE
+[08maj2025 15:18:34.637] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.event.SocketAnvilHandler to FORGE
 [08maj2025 15:18:34.637] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.AttributeCalculatedProcedure to FORGE
-[08maj2025 15:18:34.640] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.event.SocketBonusHandler to FORGE
+[08maj2025 15:18:34.640] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.event.SocketBonusHandler to FORGE
 [08maj2025 15:18:34.640] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.AdrenalineProcProcedure to FORGE
 [08maj2025 15:18:34.642] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.network.RandomCritsModVariables to MOD
-[08maj2025 15:18:34.648] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.event.ToolTipHandler to FORGE
+[08maj2025 15:18:34.648] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.event.ToolTipHandler to FORGE
 [08maj2025 15:18:34.650] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.network.RandomCritsModVariables$PlayerVariablesProvider to FORGE
-[08maj2025 15:18:34.651] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.util.AmberIntegration to FORGE
+[08maj2025 15:18:34.651] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.util.AmberIntegration to FORGE
 [08maj2025 15:18:34.654] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.network.RandomCritsModVariables$EventBusVariableHandlers to FORGE
-[08maj2025 15:18:34.654] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.util.AmetrineIntegration to FORGE
+[08maj2025 15:18:34.654] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.util.AmetrineIntegration to FORGE
 [08maj2025 15:18:34.659] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.init.RandomCritsModParticles to MOD
-[08maj2025 15:18:34.659] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.util.CitrineIntegration to FORGE
-[08maj2025 15:18:34.661] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.util.MalachiteIntegration to FORGE
+[08maj2025 15:18:34.659] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.util.CitrineIntegration to FORGE
+[08maj2025 15:18:34.661] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.util.MalachiteIntegration to FORGE
 [08maj2025 15:18:34.661] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
 [08maj2025 15:18:34.662] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
 [08maj2025 15:18:34.662] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
-[08maj2025 15:18:34.666] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.dorsz.dorszpackmod.util.TourmalineIntegration to FORGE
+[08maj2025 15:18:34.666] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.util.TourmalineIntegration to FORGE
 [08maj2025 15:18:34.668] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.init.RandomCritsModConfigs to MOD
 [08maj2025 15:18:34.670] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.init.RandomCritsModAttributes to MOD
 [08maj2025 15:18:34.693] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge

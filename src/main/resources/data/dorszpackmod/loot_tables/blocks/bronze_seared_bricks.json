@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dorszpackmod:blocks/bronze_seared_bricks"
+          "name": "expotech:blocks/bronze_seared_bricks"
         }
       ],
       "rolls": 1.0
