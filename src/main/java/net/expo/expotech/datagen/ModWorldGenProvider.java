@@ -1,6 +1,6 @@
 package net.expo.expotech.datagen;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.expo.expotech.worldgen.ModBiomeModifiers;
 import net.expo.expotech.worldgen.ModConfiguredFeatures;
 import net.expo.expotech.worldgen.ModPlacedFeatures;
@@ -23,6 +23,6 @@ public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
 
 
     public ModWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries, BUILDER, Set.of(DorszpackMod.MOD_ID));
+        super(output, registries, BUILDER, Set.of(Expotech.MOD_ID));
     }
 }

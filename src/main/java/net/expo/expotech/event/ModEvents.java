@@ -1,6 +1,6 @@
 package net.expo.expotech.event;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.expo.expotech.damage.ModDamageTypes;
 import net.expo.expotech.item.ModItems;
 import net.expo.expotech.util.SocketUtils;
@@ -13,7 +13,7 @@ import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = DorszpackMod.MOD_ID)
+@Mod.EventBusSubscriber(modid = Expotech.MOD_ID)
 public class ModEvents {
 
     @SubscribeEvent

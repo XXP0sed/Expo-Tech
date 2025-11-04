@@ -349,7 +349,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08maj2025 15:18:34.544] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5634a861 - got cpw.mods.cl.ModuleClassLoader@61d01788
 [08maj2025 15:18:34.545] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
 [08maj2025 15:18:34.547] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5634a861 - got cpw.mods.cl.ModuleClassLoader@61d01788
-[08maj2025 15:18:34.548] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.expo.expotech.DorszpackMod
+[08maj2025 15:18:34.548] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.expo.expotech.Expotech
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@5634a861
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.0
 [08maj2025 15:18:34.589] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
@@ -364,8 +364,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [08maj2025 15:18:34.615] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.TooltipProcedure to FORGE
 [08maj2025 15:18:34.616] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.datagen.DataGenerators to MOD
 [08maj2025 15:18:34.621] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.RandomCritsProcedure to FORGE
-[08maj2025 15:18:34.622] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.DorszpackMod$ClientModEvents to MOD
-[08maj2025 15:18:34.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.DorszpackMod$SocketEvents to FORGE
+[08maj2025 15:18:34.622] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.Expotech$ClientModEvents to MOD
+[08maj2025 15:18:34.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.Expotech$SocketEvents to FORGE
 [08maj2025 15:18:34.626] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.PlayerRespawnProcedure to FORGE
 [08maj2025 15:18:34.628] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.randomcrits.procedures.PlayerJoinProcedure to FORGE
 [08maj2025 15:18:34.629] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.expo.expotech.event.ModEvents to FORGE

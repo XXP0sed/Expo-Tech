@@ -1,6 +1,6 @@
 package net.expo.expotech.worldgen;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
@@ -146,6 +146,6 @@ public class ModBiomeModifiers {
 
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {
-        return ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS, new ResourceLocation(DorszpackMod.MOD_ID, name));
+        return ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS, new ResourceLocation(Expotech.MOD_ID, name));
     }
 }

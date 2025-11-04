@@ -1,6 +1,6 @@
 package net.expo.expotech.block;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.expo.expotech.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, DorszpackMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Expotech.MOD_ID);
 
 
     public static final RegistryObject<Block> MALACHITE_ORE = registerBlock("malachite_ore",

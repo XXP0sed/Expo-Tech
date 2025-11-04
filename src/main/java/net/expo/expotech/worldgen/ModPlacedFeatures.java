@@ -1,6 +1,6 @@
 package net.expo.expotech.worldgen;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
@@ -125,7 +125,7 @@ public class ModPlacedFeatures {
 
     // Register the key for PlacedFeature using the given name
     private static ResourceKey<PlacedFeature> registerKey(String name) {
-        return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(DorszpackMod.MOD_ID, name));
+        return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(Expotech.MOD_ID, name));
     }
 }
 

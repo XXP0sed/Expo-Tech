@@ -30,12 +30,12 @@ import software.bernie.geckolib.GeckoLib;
 
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(DorszpackMod.MOD_ID)
-public class DorszpackMod {
-    public static final String MOD_ID = "dorszpackmod";
+@Mod(Expotech.MOD_ID)
+public class Expotech {
+    public static final String MOD_ID = "expotech";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public DorszpackMod() {
+    public Expotech() {
 
         GeckoLib.initialize();
 

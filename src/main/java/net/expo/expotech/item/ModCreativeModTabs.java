@@ -1,6 +1,6 @@
 package net.expo.expotech.item;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.expo.expotech.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DorszpackMod.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Expotech.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> DORSZPACK_TAB = CREATIVE_MODE_TABS.register("dorszpack_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MALACHITE.get()))

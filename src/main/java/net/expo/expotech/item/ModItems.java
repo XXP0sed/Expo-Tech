@@ -1,6 +1,6 @@
 package net.expo.expotech.item;
 
-import net.expo.expotech.DorszpackMod;
+import net.expo.expotech.Expotech;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, DorszpackMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, Expotech.MOD_ID);
 
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item(new Item.Properties()));
