@@ -1,26 +1,26 @@
 {
   "values": [
-    "dorszpackmod:ametrine_ore",
-    "dorszpackmod:onyx_ore",
-    "dorszpackmod:nether_opal_ore",
-    "dorszpackmod:citrine_ore",
-    "dorszpackmod:peridot_ore",
+    "expotech:ametrine_ore",
+    "expotech:onyx_ore",
+    "expotech:nether_opal_ore",
+    "expotech:citrine_ore",
+    "expotech:peridot_ore",
 
-    "dorszpackmod:agate_ore",
-    "dorszpackmod:amber_ore",
-    "dorszpackmod:topaz_ore",
-    "dorszpackmod:malachite_ore",
+    "expotech:agate_ore",
+    "expotech:amber_ore",
+    "expotech:topaz_ore",
+    "expotech:malachite_ore",
 
-    "dorszpackmod:scoria",
+    "expotech:scoria",
 
-    "dorszpackmod:mudstone",
-    "dorszpackmod:mudstone_gold_ore",
-    "dorszpackmod:marble",
-    "dorszpackmod:marble_block",
-    "dorszpackmod:larvikite",
+    "expotech:mudstone",
+    "expotech:mudstone_gold_ore",
+    "expotech:marble",
+    "expotech:marble_block",
+    "expotech:larvikite",
 
-    "dorszpackmod:bronze_seared_bricks",
-    "dorszpackmod:tuff_heat_dampener"
+    "expotech:bronze_seared_bricks",
+    "expotech:tuff_heat_dampener"
 
 
   ]

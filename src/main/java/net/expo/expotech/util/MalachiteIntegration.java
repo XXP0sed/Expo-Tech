@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = "dorszpackmod", bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = "expotech", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class MalachiteIntegration {
 
     @SubscribeEvent

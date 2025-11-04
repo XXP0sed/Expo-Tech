@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "opal",
+  "ingredient": {
+    "item": "expotech:raw_opal"
+  },
+  "result": "expotech:opal"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "topaz",
+  "ingredient": {
+    "item": "expotech:raw_topaz"
+  },
+  "result": "expotech:topaz"
+}

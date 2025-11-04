@@ -7,7 +7,7 @@ import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = "dorszpackmod")
+@Mod.EventBusSubscriber(modid = "expotech")
 public class MobHealthBuffHandler {
 
     @SubscribeEvent

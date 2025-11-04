@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "dorszpackmod:block/mudstone_gold_ore"
-  }
-}

@@ -115,7 +115,7 @@ public class Expotech {
 
         }
     }
-    @Mod.EventBusSubscriber(modid = "dorszpackmod", bus = Mod.EventBusSubscriber.Bus.FORGE)
+    @Mod.EventBusSubscriber(modid = "expotech", bus = Mod.EventBusSubscriber.Bus.FORGE)
     public class SocketEvents {
 
         @SubscribeEvent

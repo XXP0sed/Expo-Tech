@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 5.7,
+  "group": "scoria",
+  "ingredient": {
+    "item": "expotech:scoria_chunk"
+  },
+  "result": "expotech:scoria_bar"
+}

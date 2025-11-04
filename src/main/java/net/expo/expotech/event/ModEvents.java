@@ -1,7 +1,6 @@
 package net.expo.expotech.event;
 
 import net.expo.expotech.Expotech;
-import net.expo.expotech.damage.ModDamageTypes;
 import net.expo.expotech.item.ModItems;
 import net.expo.expotech.util.SocketUtils;
 import net.minecraft.nbt.CompoundTag;
@@ -16,17 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = Expotech.MOD_ID)
 public class ModEvents {
 
-    @SubscribeEvent
-    public static void onAttackEntity(LivingAttackEvent event) {
-        if (!(event.getSource().getEntity() instanceof Player player)) return;
 
-        double fireDamage = 4.0;
-        double chance = fireDamage * 0.015;
-
-        if (player.level().random.nextFloat() < chance) {
-            event.getEntity().hurt(ModDamageTypes.fire(player.level(), player), (float) fireDamage);
-        }
-    }
     
 
     @SubscribeEvent

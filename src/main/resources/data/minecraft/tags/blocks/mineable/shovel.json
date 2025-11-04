@@ -1,14 +1,9 @@
 {
   "values": [
-    "dorszpackmod:tourmaline_ore",
-    "dorszpackmod:aquamarine_ore",
-    "dorszpackmod:kyanite_ore",
-    "dorszpackmod:ammolite_ore",
+    "expotech:tourmaline_ore",
+    "expotech:aquamarine_ore",
+    "expotech:kyanite_ore",
+    "expotech:ammolite_ore"
 
-    "dorszpackmod:mossy_mud_iron_ore",
-    "dorszpackmod:mossy_mud_gold_ore",
-    "dorszpackmod:mud_gold_ore",
-    "dorszpackmod:mud_iron_ore",
-    "dorszpackmod:mud_emerald_ore"
   ]
 }

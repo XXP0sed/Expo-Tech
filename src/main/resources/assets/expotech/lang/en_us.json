@@ -1,0 +1,80 @@
+{
+  "item.expotech.malachite": "Malachite",
+  "item.expotech.raw_malachite": "Rough Malachite",
+  "item.expotech.raw_topaz": "Rough Topaz",
+  "item.expotech.raw_amber": "Rough Amber",
+  "item.expotech.raw_kyanite": "Rough Kyanite",
+  "item.expotech.raw_agate": "Rough Agate",
+  "item.expotech.raw_peridot": "Rough Peridot",
+  "item.expotech.raw_opal": "Rough Opal",
+  "item.expotech.raw_citrine": "Rough Citrine",
+  "item.expotech.raw_ametrine": "Rough Ametrine",
+  "item.expotech.raw_tourmaline": "Rough Tourmaline",
+  "item.expotech.raw_aquamarine": "Rough Aquamarine",
+  "item.expotech.unpolished_ammolite": "Rough Ammolite",
+  "item.expotech.topaz": "Topaz",
+  "item.expotech.kyanite": "Kyanite",
+  "item.expotech.agate": "Agate",
+  "item.expotech.peridot": "Peridot",
+  "item.expotech.opal": "Opal",
+  "item.expotech.citrine": "Citrine",
+  "item.expotech.tourmaline": "Tourmaline",
+  "item.expotech.aquamarine": "Aquamarine",
+  "item.expotech.ametrine": "Ametrine",
+  "item.expotech.ammolite": "Ammolite",
+  "item.expotech.scoria_chunk": "Scoria Chunk",
+  "item.expotech.scoria_bar": "Scoria Bar",
+
+  "item.expotech.opal_gem": "Opal Socket Gem",
+  "item.expotech.malachite_gem": "Malachite Socket Gem",
+  "item.expotech.peridot_gem": "Peridot Socket Gem",
+  "item.expotech.topaz_gem": "Topaz Socket Gem",
+  "item.expotech.amber_gem": "Amber Socket Gem",
+  "item.expotech.aquamarine_gem": "Aquamarine Socket Gem",
+  "item.expotech.kyanite_gem": "Kyanite Socket Gem",
+  "item.expotech.tourmaline_gem": "Tourmaline Socket Gem",
+  "item.expotech.citrine_gem": "Citrine Socket Gem",
+  "item.expotech.amethyst_gem": "Amethyst Socket Gem",
+  "item.expotech.ametrine_gem": "Ametrine Socket Gem",
+
+  "item.expotech.coke": "Coke",
+
+  "block.expotech.ametrine_ore": "Ametrine Ore",
+  "block.expotech.onyx_ore": "Onyx Ore",
+  "block.expotech.topaz_ore": "Topaz Ore",
+  "block.expotech.amber_ore": "Amber Ore",
+  "block.expotech.malachite_ore": "Malachite Ore",
+  "block.expotech.agate_ore": "Agate Ore",
+  "block.expotech.citrine_ore": "Citrine Ore",
+  "block.expotech.tourmaline_ore": "Tourmaline Ore",
+  "block.expotech.kyanite_ore": "Kyanite Ore",
+  "block.expotech.aquamarine_ore": "Aquamarine Ore",
+  "block.expotech.peridot_ore": "Peridot Ore",
+  "block.expotech.nether_opal_ore": "Opal Ore",
+  "block.expotech.ammolite_ore": "Ammolite Ore",
+
+  "block.expotech.scoria": "Scoria",
+  "block.dorszpackmod.mossy_mud": "Mossy Mud",
+  "block.dorszpackmod.mossy_mud_iron_ore": "Mossy Mud Iron Ore",
+  "block.dorszpackmod.mossy_mud_gold_ore": "Mossy Mud Gold Ore",
+  "block.dorszpackmod.mud_iron_ore": "Mud Iron Ore",
+  "block.dorszpackmod.mud_gold_ore": "Mud Gold Ore",
+  "block.dorszpackmod.mud_emerald_ore": "Mud Emerald Ore",
+  "block.expotech.mudstone": "Mudstone",
+  "block.expotech.mudstone_gold_ore": "Mudstone Gold Ore",
+
+  "block.expotech.marble": "Marble",
+  "block.expotech.marble_block": "Marble Block",
+  "block.expotech.larvikite": "Larvikite",
+
+  "block.expotech.coke_block": "Block of Coal",
+  "block.expotech.bronze_seared_bricks": "Bronze Seared Bricks",
+  "block.expotech.tuff_heat_dampener": "Tuff Heat Dampener",
+
+
+
+
+
+
+  "creativetab.dorszpack_tab": "Dorszpack Tab"
+}

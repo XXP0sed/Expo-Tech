@@ -14,9 +14,9 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Expotech.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> DORSZPACK_TAB = CREATIVE_MODE_TABS.register("dorszpack_tab",
+    public static final RegistryObject<CreativeModeTab> expotech_tab = CREATIVE_MODE_TABS.register("expotech_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MALACHITE.get()))
-                    .title(Component.translatable("creativetab.dorszpack_tab"))
+                    .title(Component.translatable("ExpoTech"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MALACHITE.get());
                         output.accept(ModItems.OPAL.get());

@@ -71,16 +71,16 @@ public class SocketUtils {
     }
 
     private static final Set<String> VALID_GEMS = Set.of(
-            "dorszpackmod:opal_gem",
-            "dorszpackmod:malachite_gem",
-            "dorszpackmod:peridot_gem",
-            "dorszpackmod:amber_gem",
-            "dorszpackmod:aquamarine_gem",
-            "dorszpackmod:kyanite_gem",
-            "dorszpackmod:tourmaline_gem",
-            "dorszpackmod:citrine_gem",
-            "dorszpackmod:amethyst_gem",
-            "dorszpackmod:topaz_gem"
+            "expotech:opal_gem",
+            "expotech:malachite_gem",
+            "expotech:peridot_gem",
+            "expotech:amber_gem",
+            "expotech:aquamarine_gem",
+            "expotech:kyanite_gem",
+            "expotech:tourmaline_gem",
+            "expotech:citrine_gem",
+            "expotech:amethyst_gem",
+            "expotech:topaz_gem"
     );
 
     public static boolean isGemItem(ItemStack stack) {
@@ -92,7 +92,7 @@ public class SocketUtils {
 
 
     /**
-     * Returns a simplified ID like "opal" from the item ID "dorszpackmod:opal_gem"
+     * Returns a simplified ID like "opal" from the item ID "expotech:opal_gem"
      */
     public static String getGemId(ItemStack stack) {
         String fullId = ForgeRegistries.ITEMS.getKey(stack.getItem()).getPath(); // "opal_gem"
