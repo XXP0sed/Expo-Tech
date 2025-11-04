@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 1,
+  "group": "ammolite",
+  "ingredient": {
+    "item": "dorszpackmod:unpolished_ammolite"
+  },
+  "result": "dorszpackmod:ammolite"
+}

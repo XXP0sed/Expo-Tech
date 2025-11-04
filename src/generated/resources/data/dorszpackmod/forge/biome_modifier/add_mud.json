@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_jungle",
+  "features": "dorszpackmod:mud_placed",
+  "step": "raw_generation"
+}

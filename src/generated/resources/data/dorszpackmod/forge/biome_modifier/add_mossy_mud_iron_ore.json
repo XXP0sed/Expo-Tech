@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:lush_caves",
+  "features": "dorszpackmod:mossy_mud_iron_ore_placed",
+  "step": "underground_ores"
+}

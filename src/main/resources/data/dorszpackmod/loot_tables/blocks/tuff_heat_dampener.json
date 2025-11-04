@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dorszpackmod:blocks/tuff_heat_dampener"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dorszpackmod:blocks/tuff_heat_dampener"
+}

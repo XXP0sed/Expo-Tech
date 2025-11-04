@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "aquamarine",
+  "ingredient": {
+    "item": "dorszpackmod:raw_aquamarine"
+  },
+  "result": "dorszpackmod:aquamarine"
+}
